@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2023-10-11T12:47:54.397Z",
+    "end": "2023-10-11T12:47:54.880Z",
+    "duration": 483
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Garfield' to be an array",
+        "showDiff": false,
+        "actual": "Garfield",
+        "stack": "AssertionError: expected 'Garfield' to be an array\n    at Context.<anonymous> (test/indexTest.js:4:36)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Garfield' to be an array",
+        "showDiff": false,
+        "actual": "Garfield",
+        "stack": "AssertionError: expected 'Garfield' to be an array\n    at Context.<anonymous> (test/indexTest.js:4:36)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: cats.push is not a function\n    at Context.<anonymous> (test/indexTest.js:12:12)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "message": "cats.push is not a function"
+      }
+    }
+  ],
+  "passes": []
+}
